@@ -3,7 +3,7 @@ internal class Program
 {
     private static void Main(string[] args)
     {
-        Console.WriteLine();
+        Console.WriteLine("Введите числа в массив через пробел");
         String[] strings = Console.ReadLine().Split(" ");
         int[] nums = new int[strings.Length];
         for (int i = 0;i<strings.Length;i++)
